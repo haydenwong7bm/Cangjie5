@@ -355,7 +355,7 @@ def parse_args():                           # parse_args
                                         gb18030_2022_l1= GB 18030-2022 級別1,
                                         gb18030_2022_l2= GB 18030-2022 級別2,
                                         gb18030_2022_l3= GB 18030-2022 級別3,
-                                        yyy= YYY開頭的標點符號, zx= ZX開頭的標點符號
+                                        zx= ZX開頭的標點符號
                                         '''))
     args = parse.parse_args()                   # 解析參數
     return args
@@ -441,7 +441,7 @@ if __name__ == "__main__":
         charset = charset.split(',')
         charset_support_list = ['u','ua','ub','uc','ud','ue','uf','ug','uh','ui',
                                 'ci','cis','kr','rs','s','sp','cf','idc','crn','pua','other',
-                                'gb2312','gbk','big5','hkscs','gui_fan','yyy','zx',
+                                'gb2312','gbk','big5','hkscs','gui_fan','zx',
                                 'gb18030_2022_l1','gb18030_2022_l2','gb18030_2022_l3']
         for item in charset:
             if item not in charset_support_list:

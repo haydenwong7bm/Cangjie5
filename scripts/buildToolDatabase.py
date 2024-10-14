@@ -722,12 +722,6 @@ def db_mark_selected_charset(sqlite_conn,sqlite_cursor,selected_options):
                 sqlite_cursor.execute("UPDATE cangjie_table SET selected = 1 where block = 'KR' and selected is null;")
                 sqlite_conn.commit()
                 # print('finished update selected')
-            elif item == 'charset_yyy':
-                last_time = time.time() #
-                sqlite_cursor.execute("UPDATE cangjie_table SET selected = 1 where code_value like 'yyy%' and (block not like 'U%' or block is null) and selected is null;")
-                sqlite_conn.commit()
-                this_time = time.time() #
-                # print(item+'\ttime'+': '+str(this_time-last_time)) #
             elif item == 'charset_zx':
                 last_time = time.time() #
                 sqlite_cursor.execute("UPDATE cangjie_table SET selected = 1 where code_value like 'zx%' and (block not like 'U%' or block is null) and selected is null;")
@@ -802,10 +796,6 @@ def db_count_charset(sqlite_conn, sqlite_cursor):
                AND t.gb18030 = '1'
                AND (t.gb18030_byte in ('1','2') OR
                     c.block IN ('U','UA','UB','UC','UD','UE','UF','UG','UH','UI','KR'))
-            UNION ALL
-            SELECT 'YYY',COUNT(DISTINCT c.unicode_hex) FROM cangjie_table c
-             WHERE c.code_value like 'yyy%'
-               AND (c.block not like 'U%' or c.block is null)
             UNION ALL
             SELECT 'ZX',COUNT(DISTINCT c.unicode_hex) FROM cangjie_table c
              WHERE c.code_value like 'zx%'

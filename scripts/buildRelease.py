@@ -97,7 +97,6 @@ translator:
   disable_user_dict_for_patterns:
     - "^[a-x]$"
     - "^z.*$"
-    - "^yyy.*$"
 
 abc_segmentor:
   extra_tags:

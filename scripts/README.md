@@ -28,8 +28,7 @@ python buildToolGUI.py
                 [rime=ibus-rime, weasel=小狼亳, squirrel=鼠鬚管, fcitx=Fcitx 5, yong=小小輸入法]
 -c charset      字符集過濾，可選，多選以","分隔，詳見 `python buildToolCmd.py -h`
                 [u, ua, ub, uc, ud, ue, uf, ug, uh, ui, ci, cis, kr, rs, s, sp, cf, idc, crn, pua, other,
-                 gb2312, gbk, big5, hkscs, gui_fan, gb18030_2022_l1, gb18030_2022_l2, gb18030_2022_l3,
-                 yyy, zx]
+                 gb2312, gbk, big5, hkscs, gui_fan, gb18030_2022_l1, gb18030_2022_l2, gb18030_2022_l3, zx]
 ```
 > 示例
 1. 轉換`一般排序`碼表，字在前，倉頡碼在後，以`Tab`分隔，以`\r\n`換行（格式與小狼亳相同，但不包含配置項）

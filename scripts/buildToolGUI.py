@@ -424,7 +424,6 @@ def gui_charset_filter_option():
                           ('charset_big5','Big5'),
                           ('charset_hkscs', 'HKSCS-2016'),
                           ('charset_gui_fan', '通用規範漢字表 *'),
-                          ('charset_yyy', 'YYY 開頭的標點符號'),
                           ('charset_zx', 'ZX 開頭的標點符號')]
     for i, (value, text) in enumerate(charset_other_list):
         charset_checkbutton_dict[value] = tk.IntVar()
