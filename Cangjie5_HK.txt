@@ -126569,12 +126569,14 @@
 ㇈	zsnv
 ㇊	zsnv
 ㇍	zsnv
+㇤	zsnv
 ㇏	zso
 ㇃	zsov
 ㇙	zsv
 ㇟	zsvl
 ㇜	zsvm
 ㇞	zsvn
+㇥	zsvn
 ㇉	zsvs
 ㇣	zsxxx
 　	zxaa
