@@ -39,7 +39,7 @@
 - **[Cangjie5_SC.txt](https://github.com/Jackchows/Cangjie5/blob/master/Cangjie5_SC.txt)**<br />
 碼表。**簡化字優先**，符合《通用規範漢字表》的字形將排在前面。<br />
 **※以上四份碼表收錄字符相同**，包括：中日韓統一表意文字基本區至擴展I區、[兼容漢字](https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%9B%B8%E5%AE%B9%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)區中視作統一漢字的十二個字符，以及官方碼表中收錄的符號。<br />
-另外收錄兼容漢字、部首、筆畫以及其他一些形似漢字的符號。為避免與常規漢字混淆，**此部分字符編碼以「z」開頭**（兼容漢字「zc」，部首「zr」，筆畫「zs」，表意文字描述字符「zi」，算籌符號「zn」，其他符號「zf」）。
+另外收錄兼容漢字、部首、筆畫、一些形似漢字的符號、以及其他標點符號。為避免與常規漢字混淆，**此部分字符編碼以「z」開頭**（兼容漢字「zc」，部首「zr」，筆畫「zs」，表意文字描述字符「zi」，數碼符號「zn」，標點符號「zx」，日文假名「zj」，注音符號「zz」，拼音「zp」）。
 - **[Cangjie5_supplement.txt](https://github.com/Jackchows/Cangjie5/blob/master/Cangjie5_supplement.txt)**<br />
 碼表。收錄兼容漢字、部首、筆畫以及其他一些形似漢字的符號。此表按原始編碼收錄，編碼不以「z」開頭。<br />
 - **[change_summary.md](https://github.com/Jackchows/Cangjie5/blob/master/change_summary.md)**<br />
@@ -47,7 +47,7 @@
 - **[change_details.log](https://github.com/Jackchows/Cangjie5/blob/master/change_details.log)**<br />
 碼表的詳細編輯記錄。
 - **[Cangjie5_special.txt](https://github.com/Jackchows/Cangjie5/blob/master/Cangjie5_special.txt)**<br />
-碼表。**收字較少的版本**，收錄主流系統通常可以顯示的字符，包括：中日韓統一表意文字基本區（除去`U+9FF0`至`U+9FFF`）、擴展A區（除去`U+4DB6`至`U+4DBF`）、兼容漢字區中視作統一漢字的十二個字符、《通用規範漢字表》、《香港增補字符集—2016》（HKSCS）。<br />
+碼表。**收字較少的版本**，收錄主流系統通常可以顯示的字符，包括：中日韓統一表意文字基本區（除去`U+9FF0`至`U+9FFF`）、擴展A區（除去`U+4DB6`至`U+4DBF`）、兼容漢字區中視作統一漢字的十二個字符、《通用規範漢字表》、《香港增補字符集—2016》（HKSCS）、JIS X 0213（WIP）。<br />
 此碼表與前面幾份碼表更新可能不同步。
 
 ## FAQ
