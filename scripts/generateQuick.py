@@ -1,27 +1,21 @@
 import re
 import sys
 
-filename = sys.argv[1].split()
-
-with (open(filename[0], 'rt', encoding='utf-8') as file,
-      open(filename[1], 'wt', encoding='utf-8') as output_q):
+with (open(sys.argv[1], 'rt', encoding='utf-8') as file,
+      open(sys.argv[2], 'wt', encoding='utf-8') as output_q):
+    
+    for _ in range(11):
+        output_q.write(file.readline())
     
     code_list = set()
     for line in file:
-        code, value = re.split(r'[\t ]+', line.rstrip('\n'))
+        value, code = re.split(r'[\t ]+', line.rstrip('\n'))[:2]
         
-        if code.startswith('zx'):
-            code_quick = f'z{code[-1]}'
-        elif code[0] == 'z':
-            if len(code) >= 5:
-                code_quick = f'z{code[1:3]}{code[-1]}'
-            else:
-                code_quick = code
-        elif len(code) > 2:
-            code_quick = f'{code[0]}{code[-1]}'
-        else:
-            code_quick = code
+        if code.startswith('x'): # quick input no code starts with x
+            continue
+        
+        code_quick = f'{code[0]}{code[-1]}'
         
         if (code_quick, value) not in code_list:
-            output_q.write(f'{code_quick}  {value}\n')
+            output_q.write(f'{code_quick}\t{value}\n')
             code_list.add((code_quick, value))
