@@ -47,7 +47,7 @@
 - **[change_details.log](https://github.com/Jackchows/Cangjie5/blob/master/change_details.log)**<br />
 码表的详细编辑记录。
 - **[Cangjie5_special.txt](https://github.com/Jackchows/Cangjie5/blob/master/Cangjie5_special.txt)**<br />
-码表。**收字较少的版本**，收录主流系统通常可以显示的字符，包括：中日韩统一表意文字基本区（除去`U+9FF0`至`U+9FFF`）、扩展A区（除去`U+4DB6`至`U+4DBF`）、兼容汉字区中视作统一汉字的十二个字符、《通用规范汉字表》、《香港增补字符集—2016》（HKSCS）、JIS X 0213（WIP）。<br />
+码表。**收字较少的版本**，收录主流系统通常可以显示的字符，包括：中日韩统一表意文字基本区（除去`U+9FF0`至`U+9FFF`）、扩展A区（除去`U+4DB6`至`U+4DBF`）、兼容汉字区中视作统一汉字的十二个字符、《通用规范汉字表》、《香港增补字符集—2016》（HKSCS）、JIS X 0213。<br />
 此码表与前面几份码表更新可能不同步。
 
 ## FAQ
