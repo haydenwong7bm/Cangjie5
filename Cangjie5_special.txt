@@ -36431,7 +36431,7 @@
 ︽	zxbw
 ︾	zxbx
 〈	zxby
-〉	zxca
+〉	zxbz
 ︿	zxcb
 ﹀	zxcc
 「	zxcd
@@ -36730,10 +36730,6 @@
 ゖ	zjke
 ゛	zjxa
 ゜	zjxb
-ゝ	zjxc
-ゞ	zjxd
-ゟ	zjxe
-゠	zjxf
 ァ	zja
 ア	zja
 ィ	zji
@@ -36826,7 +36822,6 @@
 ヺ	zjvo
 ヽ	zjxc
 ヾ	zjxd
-ヿ	zjxg
 ㇰ	zjku
 ㇱ	zjsi
 ㇲ	zjsu
@@ -36846,9 +36841,6 @@
 ・	zjxg
 ー	zjxh
 々	zjxi
-〳	zjxl
-〴	zjxm
-〵	zjxn
 ㄅ	zzb
 ㄆ	zzp
 ㄇ	zzm
